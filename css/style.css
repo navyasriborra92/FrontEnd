@@ -1,0 +1,54 @@
+/* h1{
+    color:red
+} */
+/* *{
+    color:brown
+}
+.styling{
+    color:blueviolet
+}
+#idselector{
+    color:goldenrod
+} */
+ h1{
+    background-color: rgb(255,255,0, 0.1);
+    color:red;
+    font-family:cursive;
+    font-size:20px;
+    font-style:italic;
+    font-weight: 1000;
+    line-height:1.5;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-transform: capitalize;
+    text-shadow: 3px 3px 3px black;
+ }
+ h4{
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-shadow: 3px 3px 3px violet;
+ }
+ .box{
+    height:200px;
+    width:200px;
+    background-color: brown;
+    padding:20px;
+    margin:120px;
+ }
+ p{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%
+ }
+
+.bg{
+    height:200px;
+    width:200px;
+    /* background-image: url('https://images.unsplash.com/photo-1626808642875-0aa545482dfb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=800'); */
+    /* background-size: cover; */
+    /* background: linear-gradient(to right, red, blue, green, yellow, pink); */
+    background: radial-gradient(circle, red, blue, green , yellow, blue);
+}

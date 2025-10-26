@@ -1,0 +1,22 @@
+#box{
+    display: flex;
+    /* align-items: flex-start; */
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#box1{
+    height:100px;
+    width:100px;
+    background-color: red;
+}
+#box2{
+    height:100px;
+    width:100px;
+    background-color: blue;
+}
+#box3{
+    height:100px;
+    width:100px;
+    background-color: green
+}
